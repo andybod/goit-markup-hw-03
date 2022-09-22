@@ -240,6 +240,7 @@ body {
   padding: 30px 70px;
 }
 .teams__img {
+  width: 100%;
 }
 .teams__subtitle {
   font-weight: 500;
@@ -338,7 +339,6 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 .gellery-portfolio__image {
-  display: block;
   width: 100%;
 }
 .gellery-portfolio__contant {
