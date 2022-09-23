@@ -163,7 +163,7 @@ body {
 .hero__button {
   display: block;
   margin: 0 auto;
-  height: 50px;
+  padding: 10px 0;
   min-width: 216px;
   background: var(--hover-color);
   font-family: inherit;
@@ -213,7 +213,7 @@ body {
 }
 .work__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .work__item {
 }
@@ -228,7 +228,7 @@ body {
 }
 .teams__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .teams__item {
   background: var(--main-bright-color);
@@ -237,7 +237,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .teams__content {
-  padding: 30px 70px;
+  padding: 30px 0;
+  text-align: center;
 }
 .teams__img {
   width: 100%;
